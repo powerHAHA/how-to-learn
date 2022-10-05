@@ -17,9 +17,8 @@
   position: relative;
   margin-bottom: 100px;
   background-color: #f2f2f2;
-  z-index: 0;  
+  z-index: 0;
   flex-direction: row;
-/* выше установили ограничения для секции */
 }
 .header-text{
   display: flex;
