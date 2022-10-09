@@ -46,6 +46,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -61,6 +62,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -125,6 +127,10 @@
   font-weight: normal;
 }
 
+.two-columns__paragraph:last-of-type{
+  margin:0;
+}
+
 .two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
@@ -171,12 +177,6 @@
 }
 .table__text{
   margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-.table__text-author{
-  margin:0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -361,8 +361,4 @@
   height: 16px;
   width: 16px;
   padding-right: 10px;
-}
-
-.margins_none{
-  margin:0;
 }
