@@ -1,0 +1,82 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display:flex;
+    position: relative;
+    margin-bottom: 100px;
+    background-color: #f2f2f2;
+    z-index: 0;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .logo{
+    height:32px;
+    width:228px;
+  }
+  
+  .logo_place_header {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    order: 1;
+    display: block;
+  }
+  
+  .header__title {
+    margin: 0;
+    width: 730px;
+    margin-left: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+    order: 2;
+    align-self: center;
+  }
+  
+  .header__subtitle {
+    margin: 0;
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    width: 388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    order: 3;
+  } 
+  
+  .header__link{
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2f80ed;
+  }
+  
+  .header__link:hover{
+    transition: opacity 1s ease;
+    opacity: .66;
+  } 
+
+  .header__main-illustration {
+    position: absolute;
+    display: block;
+    max-width: 765px;
+    max-height: 608px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .header__square-pic {
+    display: block;
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+    top: 64px;
+    right: 0px;
+    z-index: -2;
+  }
