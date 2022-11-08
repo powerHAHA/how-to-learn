@@ -11,28 +11,12 @@
     overflow: hidden;
   }
   
-  .logo{
-    height:32px;
-    width:228px;
-  }
-  
   .logo_place_header {
     position: absolute;
     top: 30px;
     left: 64px;
     order: 1;
     display: block;
-  }
-  
-  .header__title {
-    margin: 0;
-    width: 730px;
-    margin-left: 64px;
-    line-height: 96px;
-    font-size: 102px;
-    font-weight: 600;
-    order: 2;
-    align-self: center;
   }
   
   .header__subtitle {
@@ -45,19 +29,6 @@
     font-size: 18px;
     font-weight: normal;
     order: 3;
-  } 
-  
-  .header__link{
-    text-decoration: none;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    color: #2f80ed;
-  }
-  
-  .header__link:hover{
-    transition: opacity 1s ease;
-    opacity: .66;
   } 
 
   .header__main-illustration {
@@ -77,6 +48,6 @@
     background-color: #2f80ed;
     position: absolute;
     top: 64px;
-    right: 0px;
+    right: 0;
     z-index: -2;
   }
